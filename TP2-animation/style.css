@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-exo2.jpg);
+    background-position: center;
+}
+
+.box {
+    background: url(images/seq-a.png) no-repeat;
+    width: 320px;  
+    height:398px; 
+    position:absolute;
+    left:25%;
+    top:50%;  
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    z-index: 2;
+}
+
+.box2 {
+    background: url(images/seq-b.png) no-repeat;
+    width: 214px;  
+    height: 243px; 
+    position:absolute;
+    right:16%;
+    top:50%;  
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    z-index: 2;
+}
+
+.principal-people{
+    display: flex;
+    justify-content: center;
+}
+
+.people1{
+    z-index: 1;
+}
+
+.people2{
+    z-index: 1;
+}
