@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Machine à sous</title>
+</head>
+<body>
+    <video class="back" width="320" height="240" autoplay loop>
+        <source src="img/fond2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container">
+        <img src="img/logo.png" class="logo" alt="logo qui veut gagner des millions">
+        <h2 class="titre">Bienvenue dans notre nouveau casino ! Vous trouverez des produits et légumes frais mais aussi une machine à sous.</h2>
+        <div class="monnaie">
+            <p>Porte monnaie :</p>
+            <p id="jeton"></p>
+        </div>
+        <div class="block">
+            <div class="block2">
+                <div class="C1">
+                    <img src="img/casino.png" class="picture" alt="picture result">
+                </div>
+                <div class="C2">
+                    <img src="img/casino.png" class="picture" alt="picture result">
+                </div>
+                <div class="C3">
+                    <img src="img/casino.png" class="picture" alt="picture result">
+                </div>
+            </div>
+            <div class="block3">
+                <div class="B1">
+                    <div class="form">
+                        <input type="radio" id="3" name="radio" value="10" checked>
+                        <label for="10">10¤ </label>
+                    </div>
+                </div>
+                <div class="B2">
+                    <div class="form">
+                        <input type="radio" id="2" name="radio" value="50">
+                        <label for="50">50¤ </label>
+                    </div>
+                </div>
+                <div class="B3">
+                    <div class="form">
+                        <input type="radio" id="1" name="radio" value="200">
+                        <label for="200">200¤ </label>
+                    </div>
+                </div>
+            </div>
+            <p id="reponse"></p>
+            <input type="submit" value="Valider" class="submit" id="sub">   
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

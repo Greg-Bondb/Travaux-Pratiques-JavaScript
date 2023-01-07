@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+video {
+object-fit: cover;
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+}
+
+.titre {
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block {
+    width: 52%;
+    height: 400px;
+    margin-top: 1%;
+    background-image: url(img/fond.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    display: flex;
+    margin-top: 5%;
+    background-color:crimson;
+    cursor: pointer;
+    width: 15%;
+    height: 6%;
+}
+
+.logo {
+    width: 20%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.C1, .C2, .C3 {
+    width: 21%;
+    height: 150px;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color:#D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.B1, .B2, .B3 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 30%;
+    width: 24%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.picture {
+    width: 70%;
+}
+
+.monnaie {
+    margin-top: 1%;
+    width: 12%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+}
+
+#reponse {
+    background-color: white;
+    margin-top: 5%;
+    font-size: 20px;
+}
